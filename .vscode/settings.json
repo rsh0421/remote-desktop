@@ -1,0 +1,30 @@
+{
+    "files.associations": {
+        "*.rh": "cpp",
+        "xiosbase": "cpp",
+        "system_error": "cpp",
+        "xlocale": "cpp",
+        "cmath": "cpp",
+        "iosfwd": "cpp",
+        "xstring": "cpp",
+        "xutility": "cpp",
+        "deque": "cpp",
+        "initializer_list": "cpp",
+        "queue": "cpp",
+        "type_traits": "cpp",
+        "vector": "cpp",
+        "functional": "cpp",
+        "xfunctional": "cpp",
+        "xtr1common": "cpp",
+        "list": "cpp",
+        "xhash": "cpp",
+        "ios": "cpp",
+        "istream": "cpp",
+        "memory": "cpp",
+        "tuple": "cpp",
+        "utility": "cpp",
+        "xlocnum": "cpp"
+    },
+    "editor.tabSize": 2,
+    "git.ignoreLimitWarning": true
+}
