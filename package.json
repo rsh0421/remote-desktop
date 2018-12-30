@@ -2,7 +2,7 @@
   "name": "remote-desktop",
   "version": "0.1.0",
   "private": true,
-  "main": "src/electron-starter.js",
+  "main": "lib/app.js",
   "dependencies": {
     "bootstrap": "^4.2.1",
     "react": "^16.7.0",
