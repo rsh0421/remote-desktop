@@ -1,0 +1,16 @@
+#title_bar{overflow:hidden;position:fixed;left:0;top:0;width:100%;height:25px;background-color:transparent}
+#title_bar .title_bar_drag_box{-webkit-app-region:drag;position:absolute;top:5px;bottom:0;left:0;right:120px}
+#title_bar.maximize .title_bar_drag_box{top:0}
+#title_bar .title_bar_icon{float:left;width:30px;height:25px;}
+#title_bar .title_bar_icon img{margin:5px 0 0 5px;width:15px;height:15px}
+#title_bar .title_bar_text{float:left;height:25px;line-height:25px;color:#777;font-size:11px}
+#title_bar .title_bar_buttons{float:right;width:120px;height:25px;line-height:25px}
+#title_bar .title_bar_buttons a{-webkit-app-region:no-drag;float:left;width:40px;height:100%;text-align:center}
+#title_bar .title_bar_buttons a:hover{background-color:#eee}
+#title_bar .title_bar_buttons a#app_close:hover{background-color:#e31c1c}
+#title_bar .title_bar_buttons a span.icon{display:inline-block;width:10px;height:10px;vertical-align:middle;background:url(../img/titleBarSprite.png) no-repeat}
+#title_bar .title_bar_buttons a#app_minimize span.icon{background-position:left bottom}
+#title_bar .title_bar_buttons a#app_maximize span.icon{background-position:-10px bottom}
+#title_bar.maximize .title_bar_buttons a#app_maximize span.icon{background-position:-20px bottom}
+#title_bar .title_bar_buttons a#app_close span.icon{background-position:-30px bottom}
+#title_bar .title_bar_buttons a#app_close:hover span.icon{background-position:-30px top}

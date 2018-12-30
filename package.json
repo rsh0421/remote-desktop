@@ -1,17 +1,44 @@
 {
   "name": "remote-desktop",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "electron": "^4.0.0"
-  },
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/electron-starter.js",
   "dependencies": {
-    "react": "^16.7.0"
+    "bootstrap": "^4.2.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts": "2.1.2",
+    "reactstrap": "^7.0.0"
+  },
+  "scripts": {
+    "react-start": "react-scripts start",
+    "react-build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "start": "nf start",
+    "dist": "yarn run react-build && build -w"
+  },
+  "build": {
+    "extends": null,
+    "directories": {
+      "buildResources": "public"
+    },
+    "target": "zip"
+  },
+  "homepage": "./",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "electron": "^4.0.0",
+    "electron-builder": "^20.38.4",
+    "foreman": "^3.0.1"
   }
 }
