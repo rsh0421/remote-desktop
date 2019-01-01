@@ -8,8 +8,8 @@ class MainPage extends Component {
   render() {
     return (
       <div id='app'>
-        <TitleBar icon={logo} title='Remote Desktop'/>
-        <Tab items={[{text:'New remote screen', content:null}]}/>
+        {TitleBar && <TitleBar icon={logo} title='Remote Desktop'/>}
+        <Tab items={[{text:'New remote screen'}]}/>
       </div>
     );
   }

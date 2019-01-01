@@ -1,3 +1,6 @@
+html{padding-top:25px}
+#root{padding-top:0}
+
 #title_bar{overflow:hidden;position:fixed;left:0;top:0;width:100%;height:25px;background-color:transparent}
 #title_bar .title_bar_drag_box{-webkit-app-region:drag;position:absolute;top:5px;bottom:0;left:0;right:120px}
 #title_bar.maximize .title_bar_drag_box{top:0}
