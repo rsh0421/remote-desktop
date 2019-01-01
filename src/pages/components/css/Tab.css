@@ -1,0 +1,9 @@
+#tab{display:flex;flex-direction:column;width:100%}
+#tab .nav{background-color:#f7f7f7}
+#tab .nav .nav-item{position:relative}
+#tab .nav .nav-item .nav-link{padding-right:30px}
+#tab .nav .nav-item .tab-close{display:inline-block;overflow:hidden;position:absolute;top:50%;right:10px;width:13px;height:13px;margin-top:-7px;border-radius:2px;line-height:13px;background-color:#ddd}
+#tab .nav .nav-item .tab-close:hover{background-color:#bbb}
+#tab .tab-menu{height:30px;border-left:1px solid #dee2e6;border-right:1px solid #dee2e6;background-color:#fff}
+#tab .tab-content{flex:1;width:100%;border:1px solid;border-top:0px;border-color:transparent #dee2e6 #dee2e6;box-sizing:border-box}
+#tab .tab-content .tab-pane{height:100%;background-color:#000}

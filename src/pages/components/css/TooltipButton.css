@@ -1,0 +1,9 @@
+.tooltip-btn{width:25px;height:25px;margin:5px 0 0 5px;border-radius:3px;line-height:25px}
+.tooltip-btn a{display:block;height:100%}
+
+.tooltip-btn.white{background-color:#333}
+.tooltip-btn.white:hover{background-color:#222}
+.tooltip-btn.black{background-color:#333}
+.tooltip-btn.black:hover{background-color:#222}
+.tooltip-btn.blue{background-color:#007bff}
+.tooltip-btn.blue:hover{background-color:#007bff}

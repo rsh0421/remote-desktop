@@ -12,7 +12,7 @@
 		<clipPath id="SVGID_2_">
 			<use xlink:href="#SVGID_1_"  overflow="visible"/>
 		</clipPath>
-		<rect x="0.001" clip-path="url(#SVGID_2_)" fill="#2873BB" width="49.999" height="50"/>
+		<rect x="0.001" clip-path="url(#SVGID_2_)" fill="#007bff" width="49.999" height="50"/>
 	</g>
 	<g>
 		<defs>
